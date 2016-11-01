@@ -17,4 +17,4 @@ Varying the path leads to different Actions, and varying w.r.t each node on the 
 
 Screenshot of the spreadsheet is seen here with the button that starts the process.
 
-![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Sheet.png)
+![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Sheet.PNG)
