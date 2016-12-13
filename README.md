@@ -2,7 +2,7 @@
 This sections contains various different subjects.
 
 1. [Path of mass through Action](https://github.com/mintDan/ExcelFun#path-of-mass-through-action)
-2. [Ebola epidemic 2014-15 in Guinea](https://github.com/mintDan/ExcelFun#Ebola-epidemic-2014-2015-in-Guinea)
+2. [Ebola epidemic 2014-15 in Guinea](https://github.com/mintDan/ExcelFun#ebola-epidemic-2014-15-in-guinea)
 
 
 ## Path of mass through Action
