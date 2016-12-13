@@ -33,4 +33,4 @@ The Ebola epidemic in Guinea is modelled with SIR, which used three time-depende
 
 The equations are solved in Excel with simple Euler integration.
 
-![Guinea.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Ebola.png)
+![Guinea.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Ebola.PNG)
