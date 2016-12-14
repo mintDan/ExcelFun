@@ -2,7 +2,7 @@
 This sections contains various different subjects.
 
 1. [Path of mass through Action](https://github.com/mintDan/ExcelFun#path-of-mass-through-action)
-2. [Ebola epidemic 2014-15 in Guinea](https://github.com/mintDan/ExcelFun#ebola-epidemic-2014-15-in-guinea)
+2. [Ebola epidemic 2014-15 in Sierra Leone](https://github.com/mintDan/ExcelFun#ebola-epidemic-2014-15-in-sierra-leone)
 
 
 ## Path of mass through Action
@@ -26,8 +26,8 @@ Screenshot of the spreadsheet is seen here with the button that starts the proce
 
 ![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Sheet.PNG)
 
-## Ebola epidemic 2014-15 in Guinea
-The Ebola epidemic in Guinea is modelled with SIR, which used three time-dependent variables S(susceptibles), I(infectious), R(recovered). Data, which can be seen as R, is taken from WHO.
+## Ebola epidemic 2014-15 in Sierra Leone
+The Ebola epidemic in Sierra Leone is modelled with SIR, which used three time-dependent variables S(susceptibles), I(infectious), R(recovered). Data, which can be seen as R, is taken from WHO.
 
 ![Guinea.png](https://github.com/mintDan/ExcelFun/blob/master/figs/SIR.png)
 
