@@ -3,7 +3,7 @@ This sections contains various different subjects.
 
 1. [Path of mass through Action](https://github.com/mintDan/ExcelFun#path-of-mass-through-action)
 2. [Ebola epidemic 2014-15 in Sierra Leone](https://github.com/mintDan/ExcelFun#ebola-epidemic-2014-15-in-sierra-leone)
-
+3. [Tournament](https://github.com/mintDan/ExcelFun#tournament)
 
 ## Path of mass through Action
 The Excel sheet calculates the path of a thrown mass, in the single vertical dimension. Pressing "Vary Height" will change the object height, and calculate the action S. The true path of an object minimizes the Action integral S.
@@ -34,3 +34,23 @@ The Ebola epidemic in Sierra Leone is modelled with SIR, which used three time-d
 The equations are solved in Excel with simple Euler integration.
 
 ![Guinea.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Ebola.PNG)
+
+## Tournament
+In a round-robin tournament every player meets every other player, and in this case a player either wins or loses. This can be represented as a directed graph.
+
+![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Tourney.png)
+
+In this case, player a beats b,c and e, and player c only beats player d and e. Counting the number of wins, a has 3 wins, b has 1, c has 2, d has 3 wins and e has 1 win. 
+So the problem is who wins, a or d? and who is third and fourth? This can be solved by looking at the adjacency matrix for the graph, and calculating the power series.
+The adjacency matrix is
+
+![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/AdjMatrix.png)
+
+Column order is (c,e,d,b,a) and likewise with rows. Row one means that c beat e and d, hence there's 1 in those entries, and 0 in the rest.
+The way to figure out the winners is then by calculating the matrix B and summing up with rows.
+
+![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/BMatrix.png)
+
+The calculation is done here and we can see the winner is d.
+
+![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/TSheet.PNG)
