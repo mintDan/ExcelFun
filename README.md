@@ -3,7 +3,8 @@ This sections contains various different subjects.
 
 1. [Path of mass through Action](https://github.com/mintDan/ExcelFun#path-of-mass-through-action)
 2. [Ebola epidemic 2014-15 in Sierra Leone](https://github.com/mintDan/ExcelFun#ebola-epidemic-2014-15-in-sierra-leone)
-3. [Tournament](https://github.com/mintDan/ExcelFun#tournament)
+3. [Water tank animation](https://github.com/mintDan/ExcelFun#water-tank-animation)
+4. [Tournament](https://github.com/mintDan/ExcelFun#tournament)
 
 ## Path of mass through Action
 The Excel sheet calculates the path of a thrown mass, in the single vertical dimension. Pressing "Vary Height" will change the object height, and calculate the action S. The true path of an object minimizes the Action integral S.
@@ -35,10 +36,20 @@ The equations are solved in Excel with simple Euler integration.
 
 ![Guinea.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Ebola.PNG)
 
+
+## Water tank animation
+This is an animation of water pouring out of a water tank. The system is described by Torricelli's law and mass conservation. Mass conservation is given by
+![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTmass.PNG)
+The water flowing covers a certain area pr time unit, which is assumed constant. By Torricelli's law we have
+![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTvout.PNG)
+Which can then be used to calculate the change in the height of water tank. The change in height of the water tank will then change the velocity out of the tank due to the lowered pressure. Hence we can solve the system iteratively.
+
+![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Watertank.PNG)
+
 ## Tournament
 In a round-robin tournament every player meets every other player, and in this case a player either wins or loses. This can be represented as a directed graph.
 
-![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Tourney.png)
+![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Tourney.png =100x20)
 
 In this case, player a beats b,c and e, and player c only beats player d and e. Counting the number of wins, a has 3 wins, b has 1, c has 2, d has 3 wins and e has 1 win. 
 So the problem is who wins, a or d? and who is third and fourth? This can be solved by looking at the adjacency matrix for the graph, and calculating the power series.
