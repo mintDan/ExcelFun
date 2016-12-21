@@ -56,10 +56,10 @@ The Excel sheet animates the system. It can be seen that the water flow out weak
 
 ## Tournament
 In a round-robin tournament every player meets every other player, and in this case a player either wins or loses. This can be represented as a directed graph.
-
 <p align="center">
-  <https://github.com/mintDan/ExcelFun/blob/master/figs/Tourney.png />
+  <img src="https://github.com/mintDan/ExcelFun/blob/master/figs/Tourney.png?raw=true" alt="Sublime's custom image"/>
 </p>
+
 
 In this case, player a beats b,c and e, and player c only beats player d and e. Counting the number of wins, a has 3 wins, b has 1, c has 2, d has 3 wins and e has 1 win. 
 So the problem is who wins, a or d? and who is third and fourth? This can be solved by looking at the adjacency matrix for the graph, and calculating the power series.
