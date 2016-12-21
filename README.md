@@ -41,20 +41,23 @@ The equations are solved in Excel with simple Euler integration.
 This is an animation of water pouring out of a water tank. The system is described by Torricelli's law and mass conservation. Mass conservation is given by
 
 ![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTmass.PNG)
+
 The water flowing covers a certain area pr time unit, which is assumed constant. By Torricelli's law we have
 
 ![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTvout.PNG)
+
 Which can then be used to calculate the change in the height of water tank. The change in height of the water tank will then change the velocity out of the tank due to the lowered pressure. Hence we can solve the system iteratively.
 
 ![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTh.PNG)
 
 The Excel sheet animates the system. It can be seen that the water flow out weakens with time, as the pressure falls. It can also be seen that the change in water height w.r.t time also becomes slower, due to velocity out getting weaker.
+
 ![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Watertank.PNG)
 
 ## Tournament
 In a round-robin tournament every player meets every other player, and in this case a player either wins or loses. This can be represented as a directed graph.
 
-![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Tourney.png =100x20)
+![Sheet.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Tourney.png)
 
 In this case, player a beats b,c and e, and player c only beats player d and e. Counting the number of wins, a has 3 wins, b has 1, c has 2, d has 3 wins and e has 1 win. 
 So the problem is who wins, a or d? and who is third and fourth? This can be solved by looking at the adjacency matrix for the graph, and calculating the power series.
