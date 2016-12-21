@@ -39,11 +39,16 @@ The equations are solved in Excel with simple Euler integration.
 
 ## Water tank animation
 This is an animation of water pouring out of a water tank. The system is described by Torricelli's law and mass conservation. Mass conservation is given by
+
 ![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTmass.PNG)
 The water flowing covers a certain area pr time unit, which is assumed constant. By Torricelli's law we have
+
 ![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTvout.PNG)
 Which can then be used to calculate the change in the height of water tank. The change in height of the water tank will then change the velocity out of the tank due to the lowered pressure. Hence we can solve the system iteratively.
 
+![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/WTh.PNG)
+
+The Excel sheet animates the system. It can be seen that the water flow out weakens with time, as the pressure falls. It can also be seen that the change in water height w.r.t time also becomes slower, due to velocity out getting weaker.
 ![Wt.png](https://github.com/mintDan/ExcelFun/blob/master/figs/Watertank.PNG)
 
 ## Tournament
